@@ -18,9 +18,12 @@ Topics:
 * [x] In a separate terminal cd into the `client` folder and run `npm install` to download dependencies.
 * [x] Still inside the `client` folder run `npm start` to run the client application.
 
-* [ ] Once your application is up and running on the client, you should see a browser window that looks like this at `localhost:3000` (although the port number will be different if 3000 is being used).
+* [x] Once your application is up and running on the client, you should see a browser window that looks like this at `localhost:3000` (although the port number will be different if 3000 is being used).
 
   ![Movies Home](https://tk-assets.lambdaschool.com/c6b3e8d8-afe0-4663-82da-60b1de76f649_movies-home.png)
+
+  - [x] npm install react-router-dom?
+  - [x] hooks?
 
 ### Task 2a: MVP
 

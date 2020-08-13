@@ -33,10 +33,8 @@ const App = () => {
   return (
     <div>
         <SavedList list={[ /* This is stretch */]} />
-        <Route exact path="/"><MovieList movies={movieList}/></Route>
-      <Switch>
-        <Route path="/movies/:id"><Movie movies={movieList}/></Route>
-      </Switch>
+        <Route exact path="/" component={MovieList}/>
+        <Route path="/movies/:id" render={(props) => (<Movie {...props} />)} />
     </div>
   );
 };

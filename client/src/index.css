@@ -67,6 +67,16 @@ body {
 }
 
 .home-button {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+  z-index: 1;
   padding: 5px 10px;
+  border: 1px solid grey;
   background-color: lightskyblue;
+}
+
+.home-button:hover {
+  background-color: green;
+  color: white;
 }
